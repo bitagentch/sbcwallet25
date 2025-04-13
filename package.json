@@ -1,0 +1,11 @@
+{
+  "name": "sbcwallet25",
+  "scripts": {
+    "slides2pdf": "npx @marp-team/marp-cli@latest slides.md -o slides.pdf"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.1.2"
+  }
+}
