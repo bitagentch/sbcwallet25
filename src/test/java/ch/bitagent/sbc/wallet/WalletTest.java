@@ -49,7 +49,8 @@ class WalletTest {
         log.info(String.format("2. receive address %s", receiveAddress));
         var receiveAmount = txInAmount;
         var txOutReceive = new TxOut(Int.parse(receiveAmount), receiveAddress.scriptPubkey());
-        var txOutReturn = new TxOut(Int.parse(0), Script.opReturn("bitagent.ch"));
+        // https://mempool.space/tx/cb194d430fc89c750888e1611a28e201d04c56347736c5aa75f05ff66a6ba854
+        var txOutReturn = new TxOut(Int.parse(0), Script.opReturn("sbc25 nerd workshop"));
 
         var version = 2;
         var electrum = new Electrum();
