@@ -58,7 +58,7 @@ marp: true
 ---
 # 1. [bitcoinjavalib](https://github.com/bitagentch/bitcoinjavalib) (1/1)
 - Open Source (MIT)
-- Basiert auf dem Buch [Programming Bitcoin](https://github.com/jimmysong/programmingbitcoin) von Jimmy Song
+- Basiert auf dem Buch [Programming Bitcoin](https://github.com/jimmysong/programmingbitcoin) von Jimmy Song, [Cover](https://github.com/jimmysong/programmingbitcoin/blob/master/images/cover.png)
 - 100% Java
 - Nur zwei Dependencies (Json, Test)
 
